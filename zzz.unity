@@ -8272,6 +8272,28 @@ MonoBehaviour:
       - {fileID: 1047422686}
       ParameterBytes: 
     - Name: TakeOwnership
+      EventType: 14
+      ParameterString: TakeOwnership
+      ParameterBoolOp: 1
+      ParameterBool: 0
+      ParameterFloat: 0
+      ParameterInt: 0
+      ParameterObject: {fileID: 0}
+      ParameterObjects:
+      - {fileID: 1743141379}
+      ParameterBytes: 
+    - Name: TakeOwnership
+      EventType: 14
+      ParameterString: TakeOwnership
+      ParameterBoolOp: 1
+      ParameterBool: 0
+      ParameterFloat: 0
+      ParameterInt: 0
+      ParameterObject: {fileID: 0}
+      ParameterObjects:
+      - {fileID: 331900586}
+      ParameterBytes: 
+    - Name: TakeOwnership
       EventType: 2
       ParameterString: isOwner
       ParameterBoolOp: 1
@@ -8321,6 +8343,14 @@ MonoBehaviour:
     Timer: 0
     DataElementIdx: 0
     DataStorageShadowValues:
+    - ParameterString: 
+      ParameterBoolOp: 
+      ParameterFloat: 
+      ParameterInt: 
+    - ParameterString: 
+      ParameterBoolOp: 
+      ParameterFloat: 
+      ParameterInt: 
     - ParameterString: 
       ParameterBoolOp: 
       ParameterFloat: 
