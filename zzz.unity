@@ -262,7 +262,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &60583917
 Transform:
   m_ObjectHideFlags: 0
@@ -8190,7 +8190,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30FB\u540C\u671F\u4F4D\u7F6E\u306E\u5FAE\u91CF\u306A\u305A\u308C\u306B\u3088\u308A\u30AF\u30E9\u30A4\u30A2\u30F3\u30C8\u3067\u5230\u7740\u5224\u5B9A\u8DDD\u96E2\u306B\u5C4A\u3044\u3066\u3044\u306A\u3044\n\u2192\u30AF\u30E9\u30A4\u30A2\u30F3\u30C8\u3067\u306E\u30E2\u30FC\u30B7\u30E7\u30F3\u5B9A\u7FA9\u306F\u5225\u306B\u3057\u305F\u307B\u3046\u304C\u3044\u3044\u304B\u3082\u3057\u308C\u306A\u3044\n\u3000\u79FB\u52D5\u72B6\u614B\u3092\u30D1\u30E9\u30E1\u30FC\u30BF\u30B7\u30F3\u30AF\u3067\u7BA1\u7406\u3059\u308B\u306A\u3069"
+  m_Text: "\u30FB\u540C\u671F\u4F4D\u7F6E\u306E\u5FAE\u91CF\u306A\u305A\u308C\u306B\u3088\u308A\u30AF\u30E9\u30A4\u30A2\u30F3\u30C8\u3067\u5230\u7740\u5224\u5B9A\u8DDD\u96E2\u306B\u5C4A\u3044\u3066\u3044\u306A\u3044\n\u2192\u30AF\u30E9\u30A4\u30A2\u30F3\u30C8\u4E0A\u3067StoppedDistance\u3092\u5897\u3084\u3059\u3053\u3068\u3067\u89E3\u6C7A\u3002\n\u3000\u4ED6\u30E2\u30FC\u30B7\u30E7\u30F3\u306F\u30C8\u30EA\u30AC\u30FC\u4F1D\u64AD\u3067\u884C\u3046\u3002"
 --- !u!222 &997662826
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12517,7 +12517,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: V0.01C
+  m_Text: V0.02a
 --- !u!222 &1681447570
 CanvasRenderer:
   m_ObjectHideFlags: 0
