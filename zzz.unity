@@ -304,6 +304,103 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &87100417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 87100418}
+  - component: {fileID: 87100420}
+  - component: {fileID: 87100419}
+  m_Layer: 0
+  m_Name: Die
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &87100418
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 87100417}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1451589030}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &87100419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 87100417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 0
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 0}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 745374312}
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Die
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!111 &87100420
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 87100417}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: a1de0c155e07c654c994ee68bd9f69b9, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: a1de0c155e07c654c994ee68bd9f69b9, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &131158451
 GameObject:
   m_ObjectHideFlags: 0
@@ -4974,7 +5071,7 @@ GameObject:
   - component: {fileID: 398335782}
   - component: {fileID: 398335783}
   m_Layer: 0
-  m_Name: CullingTrigger
+  m_Name: HearCT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5484,6 +5581,103 @@ Transform:
   m_Father: {fileID: 672891850}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &517743947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 517743948}
+  - component: {fileID: 517743950}
+  - component: {fileID: 517743949}
+  m_Layer: 0
+  m_Name: Sleep
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &517743948
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 517743947}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1451589030}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &517743949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 517743947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 0
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 0}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 745374312}
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Sleep
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!111 &517743950
+Animation:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 517743947}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: a1de0c155e07c654c994ee68bd9f69b9, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: a1de0c155e07c654c994ee68bd9f69b9, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &518588453
 GameObject:
   m_ObjectHideFlags: 0
@@ -15875,6 +16069,8 @@ Transform:
   - {fileID: 1513134588}
   - {fileID: 905786531}
   - {fileID: 1934120197}
+  - {fileID: 87100418}
+  - {fileID: 517743948}
   m_Father: {fileID: 1046435223}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16702,7 +16898,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u57FA\u672C\u30B7\u30B9\u30C6\u30E0\u5B8C\u6210\n\u30C6\u30B9\u30C8\u30DE\u30C3\u30D7\u306E\u4F5C\u6210\u3068\u8907\u6570\u4F53\u914D\u7F6E\u306E\u30C6\u30B9\u30C8\u3092\u884C\u3046\n\u554F\u984C\u306A\u3051\u308C\u3070\u540C\u671F\u30C6\u30B9\u30C8\u306B\u79FB\u884C\u3059\u308B\n\u9283\u58F0\u7BC4\u56F2\u5DEE\u5225\u5316\u3059\u308B\u5834\u5408\u306FGun\u306ECamera\u7BC4\u56F2\u3044\u3058\u308B\u3053\u3068"
+  m_Text: "HP0\u6642\u306E\u6D88\u6EC5\u51E6\u7406\u3068\u3001Sleep/Awake\u5468\u308A\u306E\u51E6\u7406\u4F5C\u308B\n\n\u6B21-------------------\nSleep/Awake\u95A2\u9023\u30DE\u30EB\u30C1\u30C6\u30B9\u30C8\n\n\u6B21-------------------\n\u30C6\u30B9\u30C8\u30DE\u30C3\u30D7\u306E\u4F5C\u6210\u3068\u8907\u6570\u4F53\u914D\u7F6E\u306E\u30C6\u30B9\u30C8\u3092\u884C\u3046\n\u554F\u984C\u306A\u3051\u308C\u3070\u540C\u671F\u30C6\u30B9\u30C8\u306B\u79FB\u884C\u3059\u308B\n\u9283\u58F0\u7BC4\u56F2\u5DEE\u5225\u5316\u3059\u308B\u5834\u5408\u306FGun\u306ECamera\u7BC4\u56F2\u3044\u3058\u308B\u3053\u3068"
 --- !u!222 &1640142855
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20110,7 +20306,7 @@ MonoBehaviour:
       ParameterBoolOp: 0
       ParameterBool: 0
       ParameterFloat: 0
-      ParameterInt: 0
+      ParameterInt: 1
       ParameterObject: {fileID: 0}
       ParameterObjects:
       - {fileID: 1046435222}
@@ -20150,7 +20346,7 @@ MonoBehaviour:
       ParameterBoolOp: 0
       ParameterBool: 0
       ParameterFloat: 0
-      ParameterInt: 1
+      ParameterInt: 2
       ParameterObject: {fileID: 0}
       ParameterObjects:
       - {fileID: 1046435222}
@@ -20190,7 +20386,7 @@ MonoBehaviour:
       ParameterBoolOp: 0
       ParameterBool: 0
       ParameterFloat: 0
-      ParameterInt: 2
+      ParameterInt: 3
       ParameterObject: {fileID: 0}
       ParameterObjects:
       - {fileID: 1046435222}
@@ -20230,7 +20426,7 @@ MonoBehaviour:
       ParameterBoolOp: 0
       ParameterBool: 0
       ParameterFloat: 0
-      ParameterInt: 3
+      ParameterInt: 4
       ParameterObject: {fileID: 0}
       ParameterObjects:
       - {fileID: 1046435222}
