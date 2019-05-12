@@ -7003,6 +7003,17 @@ MonoBehaviour:
       ParameterObjects:
       - {fileID: 1706031257}
       ParameterBytes: 
+    - Name: 
+      EventType: 22
+      ParameterString: HitPoint
+      ParameterBoolOp: 1
+      ParameterBool: 0
+      ParameterFloat: 0
+      ParameterInt: 100
+      ParameterObject: {fileID: 0}
+      ParameterObjects:
+      - {fileID: 1046435222}
+      ParameterBytes: 
     Name: Unnamed
     Others: []
     Key: 0
@@ -7019,6 +7030,10 @@ MonoBehaviour:
     Timer: 0
     DataElementIdx: 0
     DataStorageShadowValues:
+    - ParameterString: 
+      ParameterBoolOp: 
+      ParameterFloat: 
+      ParameterInt: 
     - ParameterString: 
       ParameterBoolOp: 
       ParameterFloat: 
