@@ -4243,6 +4243,45 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 378208426}
+--- !u!1 &433583815 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1147070341747304, guid: ee59d040873c2a54bab0c0269b7f90e1,
+    type: 2}
+  m_PrefabInternal: {fileID: 249246783}
+--- !u!114 &433583821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 433583815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1777623079, guid: f78c4655b33cb5741983dc02e08899cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+  - name: Motion
+    mirror: 1
+    type: 2
+    serializeComponent: {fileID: 0}
+    valueBool: 0
+    valueInt: 0
+    valueFloat: 0
+    valueString: 
+    valueSerializedBytes: 
+    modified: 0
+    added: 0
+  - name: HitPoint
+    mirror: 1
+    type: 2
+    serializeComponent: {fileID: 0}
+    valueBool: 0
+    valueInt: 0
+    valueFloat: 0
+    valueString: 
+    valueSerializedBytes: 
+    modified: 0
+    added: 0
 --- !u!1 &471331697
 GameObject:
   m_ObjectHideFlags: 0
@@ -9437,7 +9476,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "V0.06a\n\u30D1\u30E9\u30E1\u30FC\u30BF\u30EB\u30FC\u30D7\u65B9\u5F0F\u306E\u540C\u671F\u30C6\u30B9\u30C8\n---------------------------------\n\u4E8C\u4EBA\u30C6\u30B9\u30C8\u554F\u984C\u306A\u3057\n\n\u4FEE\u6B63\u5B8C\u4E86-------------------------"
+  m_Text: "V0.07b\n\u30D1\u30E9\u30E1\u30FC\u30BF\u30B7\u30F3\u30AF\u6B7B\u4EA1\u78BA\u8A8D\uFF01\u30A2\u30C3\u30D7\u30C7\u30FC\u30C8\u30D0\u30B0Fix\n---------------------------------\n-\u30D1\u30E9\u30E1\u30FC\u30BF\u30B7\u30F3\u30AF\u6B7B\u3093\u3060\n\u2192DataStorage\u8D85\u4E45\u3005\u306B\u4F7F\u3046\n\u3000\u2192\u6A5F\u80FD\u306F\u3057\u305F\u304C\u30C1\u30AB\u30C1\u30AB\u3059\u308B\u3002\u30B9\u30C6\u30FC\u30C8\u304C\u5B89\u5B9A\u3057\u306A\u3044\u3068\u9077\u79FB\u3057\u306A\u3044\u3088\u3046\u306B\u3067\u304D\u308B\u304B\n\n-NavTarget\u304C\u52D5\u304B\u306A\u3044\n\u2192Caution\u6642\u306E\u307F\u79FB\u52D5\u3002\u305D\u308C\u4EE5\u5916\u3067\u306F\u5168\u304F\u79FB\u52D5\u3057\u3066\u3044\u306A\u3044\n\n\u4FEE\u6B63\u5B8C\u4E86-------------------------"
 --- !u!222 &997662826
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14384,7 +14423,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: V0.06a
+  m_Text: V0.07b
 --- !u!222 &1681447570
 CanvasRenderer:
   m_ObjectHideFlags: 0
