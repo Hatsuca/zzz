@@ -115,9 +115,9 @@ NavMeshSettings:
   m_NavMeshData: {fileID: 23800000, guid: 045ee877a89f059458370b4cd2385f01, type: 2}
 --- !u!1 &49306625 stripped
 GameObject:
-  m_PrefabParentObject: {fileID: 1591553220590058, guid: ee59d040873c2a54bab0c0269b7f90e1,
+  m_PrefabParentObject: {fileID: 1992554995598958, guid: ee59d040873c2a54bab0c0269b7f90e1,
     type: 2}
-  m_PrefabInternal: {fileID: 2013560250}
+  m_PrefabInternal: {fileID: 1928951018}
 --- !u!1 &52662692
 GameObject:
   m_ObjectHideFlags: 0
@@ -8958,9 +8958,9 @@ CanvasRenderer:
   m_GameObject: {fileID: 997662823}
 --- !u!1 &1047422686 stripped
 GameObject:
-  m_PrefabParentObject: {fileID: 1418143402876794, guid: ee59d040873c2a54bab0c0269b7f90e1,
+  m_PrefabParentObject: {fileID: 1720026119158018, guid: ee59d040873c2a54bab0c0269b7f90e1,
     type: 2}
-  m_PrefabInternal: {fileID: 2013560250}
+  m_PrefabInternal: {fileID: 1928951018}
 --- !u!1 &1054804009
 GameObject:
   m_ObjectHideFlags: 0
@@ -13401,7 +13401,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30A2\u30C3\u30D7\u30C7\u30FC\u30C8\u30D0\u30B0Fix\u5B8C\u4E86\n-------------------------------------------------\nNonOwner\u5BFE\u7B56(OST\u30C1\u30A7\u30C3\u30AF)\u7D44\u307F\u8FBC\u3080\n\nJoint\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u540C\u671F\u3057\u306A\u3044\u3051\u3069\u3001\u305D\u306E\u5B50\u3092\u540C\u671F\u3055\u305B\u305F\u3089\u3069\u3046\u306A\u308B\u306E\u304B\uFF1F\n\n\n\u8907\u6570\u4F53\u914D\u7F6E\u3067\u767A\u751F\u3057\u305F\u554F\u984C\u70B9\n--------------------------------------------------\n-NPC\u306E\u30A2\u30F3\u30AB\u30FC\u304C\u540C\u3058\u4F4D\u7F6E\u3067\u56FA\u5B9A\u3055\u308C\u7D9A\u3051\u308B\n\u2192isKinematic\u304CTrue\u306B\u306A\u3063\u3066\u308B\u3002\u30AA\u30FC\u30CA\u30FC\u4E0D\u5728\u304C\u767A\u751F\u3057\u305F\u304B\n\u3000\u2192\u30AA\u30FC\u30CA\u30FC\u4E0D\u5728\u3092\u306A\u3093\u3089\u304B\u306E\u5F62\u3067\u691C\u77E5\u3057\u3066LeftOwnerCheck\u53E9\u3051\u306A\u3044\u304B\uFF1F\n\n-\u540C\u671F\u8CA0\u8377\u306B\u3088\u3063\u3066\u30D7\u30EC\u30A4\u30E4\u30FC\u306E\u540C\u671F\u304C\u30AB\u30AF\u3064\u304F\n\u2192Shoot\u3068Approach\u6642\u306E\u307FForceSync\u304C\u6A5F\u80FD\u3059\u308B\u3088\u3046\u306B\u5909\u66F4\u3092\u691C\u8A0E\n\n\u5B8C\u4E86-----------------------------\n-\u5012\u3057\u305FNPC\u304CSleep\u306B\u306A\u3089\u305A\u9283\u3092\u6483\u3061\u7D9A\u3051\u308B(isOwner\u306FTrue\u72B6\u614B)\n\u2192NPC\u304C\u6D88\u3048\u3066\u308B\u6642\u70B9\u3067Motion\u306FDie\u306B\u306A\u3063\u3066\u308B\u3002Shoot\u3078\u306E\u9077\u79FB\u3082Mode\u304C0\u3067\u306F\u8D77\u3053\u3089\u305A\u3001\u3000Sleep\u30C8\u30EA\u30AC\u30FC\u3082\u53E9\u304B\u308C\u3066\u3044\u305F\u3053\u3068\u304B\u3089\u3001OnEnable\u304C\u6B63\u5E38\u306B\u52D5\u4F5C\u3057\u3066\u3044\u306A\u304B\u3063\u305F\u53EF\u80FD\u6027\u304C\u9AD8\u3000\u3044\n\u3000\u2192Custom\u306B\u5909\u66F4\u3057\u3066\u69D8\u5B50\u898B\n-\u540C\u671F\u8CA0\u8377\u306B\u3088\u3063\u3066\u30D7\u30EC\u30A4\u30E4\u30FC\u306E\u540C\u671F\u304C\u30AB\u30AF\u3064\u304F\n\u2192ForceObjectSync\u30AA\u30D5\u306B\u306A\u3063\u3066\u306A\u304B\u3063\u305F\n\u3000ObjectSync\u6E1B\u3089\u305B\u306A\u3044\u304B\uFF1F\u30D1\u30E9\u30E1\u30FC\u30BF\u30B7\u30F3\u30AF\u306F\u30A8\u30C7\u30A3\u30BF\u62E1\u5F35\u3067\u5171\u6709\u3067\u304D\u305D\u3046\n\u3000\u2192\u4FEE\u6B63\u5B8C\u4E86\u3002\u30D1\u30E9\u30E1\u30FC\u30BF\u30B7\u30F3\u30AF\u5171\u6709\u5316\u306FOS\u306E\u554F\u984C\u306B\u3088\u308A\u5374\u4E0B\n-LateJoiner(?)\u3068\u306E\u9593\u3067Mode\u306B\u305A\u308C\u304C\u751F\u3058\u308B(Shoot\u3068Sleep)\n\u2192Buffer\u304C\u6A5F\u80FD\u3057\u3066\u3044\u306A\u3044\u53EF\u80FD\u6027\u3002\n\u3000\u2192\u30D1\u30E9\u30E1\u30FC\u30BF\u30B7\u30F3\u30AF\u3067Avatar
+  m_Text: "\u30A2\u30C3\u30D7\u30C7\u30FC\u30C8\u30D0\u30B0Fix\u5B8C\u4E86\n-------------------------------------------------\nNonOwner\u5BFE\u7B56(OST\u30C1\u30A7\u30C3\u30AF)\u7D44\u307F\u8FBC\u3080\n\u7D44\u3093\u3060\u3051\u3069\u5FC3\u914D\u3001\u3061\u3087\u3063\u3068\u898B\u76F4\u3057\u305F\u307B\u3046\u304C\u3044\u3044\n\u2192\u898B\u76F4\u3057\u5B8C\u4E86\u7121\u99C4\u306AVRC_Trigger\u6E1B\u3089\u305B\u305F\n\nJoint\u30AA\u30D6\u30B8\u30A7\u30AF\u30C8\u540C\u671F\u3057\u306A\u3044\u3051\u3069\u3001\u305D\u306E\u5B50\u3092\u540C\u671F\u3055\u305B\u305F\u3089\u3069\u3046\u306A\u308B\u306E\u304B\uFF1F\n\n\n\u8907\u6570\u4F53\u914D\u7F6E\u3067\u767A\u751F\u3057\u305F\u554F\u984C\u70B9\n--------------------------------------------------\n-NPC\u306E\u30A2\u30F3\u30AB\u30FC\u304C\u540C\u3058\u4F4D\u7F6E\u3067\u56FA\u5B9A\u3055\u308C\u7D9A\u3051\u308B\n\u2192isKinematic\u304CTrue\u306B\u306A\u3063\u3066\u308B\u3002\u30AA\u30FC\u30CA\u30FC\u4E0D\u5728\u304C\u767A\u751F\u3057\u305F\u304B\n\u3000\u2192\u30AA\u30FC\u30CA\u30FC\u4E0D\u5728\u3092\u306A\u3093\u3089\u304B\u306E\u5F62\u3067\u691C\u77E5\u3057\u3066LeftOwnerCheck\u53E9\u3051\u306A\u3044\u304B\uFF1F\n\n-\u540C\u671F\u8CA0\u8377\u306B\u3088\u3063\u3066\u30D7\u30EC\u30A4\u30E4\u30FC\u306E\u540C\u671F\u304C\u30AB\u30AF\u3064\u304F\n\u2192Shoot\u3068Approach\u6642\u306E\u307FForceSync\u304C\u6A5F\u80FD\u3059\u308B\u3088\u3046\u306B\u5909\u66F4\u3092\u691C\u8A0E\n\n\u5B8C\u4E86-----------------------------\n-\u5012\u3057\u305FNPC\u304CSleep\u306B\u306A\u3089\u305A\u9283\u3092\u6483\u3061\u7D9A\u3051\u308B(isOwner\u306FTrue\u72B6\u614B)\n\u2192NPC\u304C\u6D88\u3048\u3066\u308B\u6642\u70B9\u3067Motion\u306FDie\u306B\u306A\u3063\u3066\u308B\u3002Shoot\u3078\u306E\u9077\u79FB\u3082Mode\u304C0\u3067\u306F\u8D77\u3053\u3089\u305A\u3001\u3000Sleep\u30C8\u30EA\u30AC\u30FC\u3082\u53E9\u304B\u308C\u3066\u3044\u305F\u3053\u3068\u304B\u3089\u3001OnEnable\u304C\u6B63\u5E38\u306B\u52D5\u4F5C\u3057\u3066\u3044\u306A\u304B\u3063\u305F\u53EF\u80FD\u6027\u304C\u9AD8\u3000\u3044\n\u3000\u2192Custom\u306B\u5909\u66F4\u3057\u3066\u69D8\u5B50\u898B\n-\u540C\u671F\u8CA0\u8377\u306B\u3088\u3063\u3066\u30D7\u30EC\u30A4\u30E4\u30FC\u306E\u540C\u671F\u304C\u30AB\u30AF\u3064\u304F\n\u2192ForceObjectSync\u30AA\u30D5\u306B\u306A\u3063\u3066\u306A\u304B\u3063\u305F\n\u3000ObjectSync\u6E1B\u3089\u305B\u306A\u3044\u304B\uFF1F\u30D1\u30E9\u30E1\u30FC\u30BF\u30B7\u30F3\u30AF\u306F\u30A8\u30C7\u30A3\u30BF\u62E1\u5F35\u3067\u5171\u6709\u3067\u304D\u305D\u3046\n\u3000\u2192\u4FEE\u6B63\u5B8C\u4E86\u3002\u30D1\u30E9\u30E1\u30FC\u30BF\u30B7\u30F3\u30AF\u5171\u6709\u5316\u306FOS\u306E\u554F\u984C\u306B\u3088\u308A\u5374\u4E0B\n-LateJoiner(?)\u3068\u306E\u9593\u3067Mode\u306B\u305A\u308C\u304C\u751F\u3058\u308B(Shoot\u3068Sleep)\n\u2192Buffer\u304C\u6A5F\u80FD\u3057\u3066\u3044\u306A\u3044\u53EF\u80FD\u6027\u3002\n\u3000\u2192\u30D1\u30E9\u30E1\u30FC\u30BF\u30B7\u30F3\u30AF\u3067Avatar
     - Manager\u306B\u4FE1\u53F7\u3092\u4E0B\u308D\u3059\u3088\u3046\u306B\u5909\u66F4"
 --- !u!222 &1640142855
 CanvasRenderer:
@@ -17453,6 +17453,53 @@ Transform:
   m_Father: {fileID: 981421592}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1928951018
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4100213460914834, guid: ee59d040873c2a54bab0c0269b7f90e1, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100213460914834, guid: ee59d040873c2a54bab0c0269b7f90e1, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100213460914834, guid: ee59d040873c2a54bab0c0269b7f90e1, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100213460914834, guid: ee59d040873c2a54bab0c0269b7f90e1, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100213460914834, guid: ee59d040873c2a54bab0c0269b7f90e1, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100213460914834, guid: ee59d040873c2a54bab0c0269b7f90e1, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100213460914834, guid: ee59d040873c2a54bab0c0269b7f90e1, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100213460914834, guid: ee59d040873c2a54bab0c0269b7f90e1, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114943386091427222, guid: ee59d040873c2a54bab0c0269b7f90e1,
+        type: 2}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 826971392}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ee59d040873c2a54bab0c0269b7f90e1, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1967980728
 GameObject:
   m_ObjectHideFlags: 0
@@ -17483,53 +17530,6 @@ Transform:
   m_Father: {fileID: 688153008}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &2013560250
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4391980470750334, guid: ee59d040873c2a54bab0c0269b7f90e1, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391980470750334, guid: ee59d040873c2a54bab0c0269b7f90e1, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391980470750334, guid: ee59d040873c2a54bab0c0269b7f90e1, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391980470750334, guid: ee59d040873c2a54bab0c0269b7f90e1, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391980470750334, guid: ee59d040873c2a54bab0c0269b7f90e1, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391980470750334, guid: ee59d040873c2a54bab0c0269b7f90e1, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391980470750334, guid: ee59d040873c2a54bab0c0269b7f90e1, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391980470750334, guid: ee59d040873c2a54bab0c0269b7f90e1, type: 2}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 114186256066739392, guid: ee59d040873c2a54bab0c0269b7f90e1,
-        type: 2}
-      propertyPath: respawnPoint
-      value: 
-      objectReference: {fileID: 826971392}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: ee59d040873c2a54bab0c0269b7f90e1, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &2052621078
 GameObject:
   m_ObjectHideFlags: 0
