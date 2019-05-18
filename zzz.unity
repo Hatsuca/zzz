@@ -3962,7 +3962,7 @@ Prefab:
     - target: {fileID: 11473296, guid: 9cb1e183d39ba432db5c583c4548819c, type: 2}
       propertyPath: DynamicMaterials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 01208f8873208464da501a01932c8595, type: 2}
+      objectReference: {fileID: 2100000, guid: 2724fdc468ff84943995b4e50cfb43bd, type: 2}
     - target: {fileID: 11473296, guid: 9cb1e183d39ba432db5c583c4548819c, type: 2}
       propertyPath: DynamicMaterials.Array.data[1]
       value: 
@@ -3974,19 +3974,19 @@ Prefab:
     - target: {fileID: 11473296, guid: 9cb1e183d39ba432db5c583c4548819c, type: 2}
       propertyPath: DynamicMaterials.Array.data[2]
       value: 
-      objectReference: {fileID: 2100000, guid: abc2fb42896532f449111a9bc0bbdb07, type: 2}
+      objectReference: {fileID: 2100000, guid: cacf48e6f8cefc049aef2055995bf760, type: 2}
     - target: {fileID: 11473296, guid: 9cb1e183d39ba432db5c583c4548819c, type: 2}
       propertyPath: DynamicMaterials.Array.data[3]
       value: 
-      objectReference: {fileID: 2100000, guid: 2724fdc468ff84943995b4e50cfb43bd, type: 2}
+      objectReference: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 11473296, guid: 9cb1e183d39ba432db5c583c4548819c, type: 2}
       propertyPath: DynamicMaterials.Array.data[4]
       value: 
-      objectReference: {fileID: 2100000, guid: cacf48e6f8cefc049aef2055995bf760, type: 2}
+      objectReference: {fileID: 2100000, guid: 01208f8873208464da501a01932c8595, type: 2}
     - target: {fileID: 11473296, guid: 9cb1e183d39ba432db5c583c4548819c, type: 2}
       propertyPath: DynamicMaterials.Array.data[5]
       value: 
-      objectReference: {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: abc2fb42896532f449111a9bc0bbdb07, type: 2}
     - target: {fileID: 11473296, guid: 9cb1e183d39ba432db5c583c4548819c, type: 2}
       propertyPath: DynamicMaterials.Array.data[6]
       value: 
@@ -8949,7 +8949,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "V0.07k\n\u30D1\u30E9\u30E1\u30FC\u30BF\u30B7\u30F3\u30AF\u6B7B\u4EA1\u78BA\u8A8D\uFF01\u30A2\u30C3\u30D7\u30C7\u30FC\u30C8\u30D0\u30B0Fix\n---------------------------------\n+\u521D\u671F\u4F4D\u7F6E\u7528\u30A2\u30F3\u30AB\u30FC\u8FFD\u52A0\u3002SAM\u3092Sleep\u6642Disable\u306B\u3057\u3066\u6BCE\u56DE\u958B\u5E55\u540C\u3058\u30EB\u30FC\u30C8\u8FBF\u308C\u308B\u3088\u3046\u306B\u5909\u66F4\n\n\u4FEE\u6B63\u5B8C\u4E86-------------------------\n-\u30D1\u30E9\u30E1\u30FC\u30BF\u30B7\u30F3\u30AF\u6B7B\u3093\u3060\n\u2192DataStorage\u8D85\u4E45\u3005\u306B\u4F7F\u3046\n\u3000\u2192\u4E8C\u91CD\u8D77\u52D5\u3057\u3066\u3057\u307E\u3046\u306E\u3067HasExit\u3067\u524D\u306E\u30B9\u30C6\u30FC\u30C8\u304C0.4s\u7D99\u7D9A\u3057\u3066\u306A\u3044\u3068\u9077\u79FB\u3057\u306A\u3044\u3088\u3046\u306B\u3057\u305F\u3002\u3053\u308C\u4EE5\u4E0A\u306F\u6211\u6162\u3002\n-SyncStatus\u306E\u5B89\u5B9A\u306B\u6642\u9593\u304C\u304B\u304B\u308B\u3088\u3046\u306B\u306A\u3063\u305F\u305B\u3044\u304B\u3001Die\u6642\u306B\u30AF\u30E9\u30A4\u30A2\u30F3\u30C8\u4E0A\u3067\u900F\u660E\u306B\u306A\u308B\u524D\u306B\u4F4D\u7F6E\u30EA\u30BB\u30C3\u30C8\u304C\u540C\u671F\u3055\u308C\u3066\u3057\u307E\u3046\n\u2192Die\u7D42\u4E86\u304B\u3089Sleep\u6642\u306B\u4F4D\u7F6E\u30EA\u30BB\u30C3\u30C8\u3092\u5B9F\u65BD\u3059\u308B\u3088\u3046\u306B\u3002Spawn\u6642\u9AD8\u901F\u79FB\u52D5\u304C\u898B\u3048\u308B\u304C\u307E\u3041\u6C17\u306B\u3057\u306A\u3044\u3060\u308D\u3046\n-NavTarget\u304C\u52D5\u304B\u306A\u3044\n\u2192Caution\u6642\u306E\u307F\u79FB\u52D5\u3002\u305D\u308C\u4EE5\u5916\u3067\u306F\u5168\u304F\u79FB\u52D5\u3057\u3066\u3044\u306A\u3044\n\u3000Anker\u306EJoint\u306B\u3088\u308B\u5F15\u3063\u5F35\u308A\u304C\u540C\u671F\u3067\u304D\u3066\u3044\u306A\u3044?\n\u3000\u2192FollowTarget\u3067\u4E00\u3064\u7D4C\u7531\u3055\u305B\u305F\u3089\u540C\u671F\u3067\u304D\u305F\u3002\u3084\u3084\u7121\u99C4\u304C\u591A\u304F\u611F\u3058\u308B"
+  m_Text: "V0.08a\nMasterLocal\u95A2\u9023\u6574\u5099\u3002NonOwner\u5BFE\u7B56\u30B7\u30B9\u30C6\u30E0\u8FFD\u52A0\n---------------------------------\n\n\n\u4FEE\u6B63\u5B8C\u4E86-------------------------"
 --- !u!222 &997662826
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13494,7 +13494,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: V0.07k
+  m_Text: V0.08a
 --- !u!222 &1681447570
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17497,6 +17497,24 @@ Prefab:
       propertyPath: respawnPoint
       value: 
       objectReference: {fileID: 826971392}
+    - target: {fileID: 65845269072122614, guid: ee59d040873c2a54bab0c0269b7f90e1,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 65845269072122614, guid: ee59d040873c2a54bab0c0269b7f90e1,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4396639013297716, guid: ee59d040873c2a54bab0c0269b7f90e1, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4396639013297716, guid: ee59d040873c2a54bab0c0269b7f90e1, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ee59d040873c2a54bab0c0269b7f90e1, type: 2}
   m_IsPrefabParent: 0
